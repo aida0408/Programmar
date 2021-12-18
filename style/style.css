@@ -35,6 +35,10 @@ a {
     width: 50%;
     padding: 0 15px;
 }
+.col-3 {
+    width: 25%;
+    padding: 0 15px;
+}
 .header {
     position: absolute;
     padding: 40px 0;
@@ -98,23 +102,26 @@ a {
 .services{
     padding: 110px 0;
 }
-.section-title{
+.services-title{
     font-size: 36px;
     line-height: 53px;
     text-align: center;
     color: #323232;
     margin-bottom: 50px;
+    text-align: center;
 }
-.section-subtitle{
+.services-subtitle{
     font-size: 16px;
     line-height: 25px;
-    text-align: center;
     color: #999999;
     margin-bottom: 80px;
+    text-align: center;
+
 
 }
 .services-item{
     margin-bottom: 55px;
+    padding: 30px 20px;
     position: relative;
 }
 .services-icon{
@@ -127,9 +134,9 @@ a {
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 0;
+    left: -80px;
     right: 0;
-    margin: auto;
+    top: -15px
 }
 .services-box:hover{
     border: 3px solid #4985FF;
@@ -140,6 +147,7 @@ a {
     font-size: 18px;
     line-height: 22px;
     color: #000000;
+    margin-bottom: 12px;
 }
 .services-description{
     font-size: 14px;
@@ -150,11 +158,30 @@ a {
 .about-us{
     padding: 100px 0 70px;
 }
+.about-us-desc{
+    font-size: 36px;
+    line-height: 53px;
+    color: #323232;
+    margin-bottom: 40px;
+}
+.about-us-subtitle{
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+    margin-bottom: 30px;
+}
+.about-us-title{
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+}
+
 .about-us-img{
     width: 500px;
     height: 400px;
-    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
     border-radius: 30px;
+    margin-left: 121px;
 }
 .about-us-stats{
     display: flex;
@@ -169,8 +196,35 @@ a {
     line-height: 53px;
     color: #000000;
 }
-.about-us-title{
+
+.all-services{
+    padding: 100px 170px;
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+}
+.all-services-caption{
+    color: #fff;
+}
+.all-services-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.all-services-img{
+    margin-bottom: 30px;
+}
+.all-services-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+}
+.all-services-subtitle{
     font-size: 16px;
     line-height: 25px;
     color: #999999;
+    margin-bottom: 30px;
+}
+.all-project{
+    padding: 100px 0 130px;
 }
